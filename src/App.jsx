@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import logo from './assets/logo.svg'
+import { RouterProvider } from 'react-router-dom'
 import './App.css'
+import router from './router/router'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-black'>
-      <a href="https://vitejs.dev" target="_blank">
-        <img src={logo} className="logo" alt="Vite logo" />
-      </a>
-    </div>
+    <RouterProvider router={router} />
   )
 }
 
