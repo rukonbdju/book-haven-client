@@ -5,6 +5,8 @@ import Authors from "../pages/Authors/Authors";
 import Ebooks from "../pages/Ebooks/Ebooks";
 import Blogs from "../pages/Blogs/Blogs";
 import Auth from "../pages/Auth/Auth";
+import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
 
 const router = createBrowserRouter([
     {
@@ -33,7 +35,11 @@ const router = createBrowserRouter([
     },
     {
         path: '/auth/login',
-        element: <Auth></Auth>
+        element: <Login></Login>
+    },
+    {
+        path: '/auth/register',
+        element: <Register></Register>
     }
 ])
 
