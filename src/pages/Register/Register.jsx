@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg"
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import auth from "../../firebaseAuth/firebase.init";
 import { useState } from "react";
+import auth from "../../../firebase.init";
 
 const Register = () => {
     const [createUserWithEmailAndPassword,user,loading,error,] = useCreateUserWithEmailAndPassword(auth);

@@ -1,5 +1,5 @@
 import { useAuthState, useSignOut } from "react-firebase-hooks/auth";
-import auth from "../../firebaseAuth/firebase.init";
+import auth from "../../../firebase.init";
 
 const UserDropdown = () => {
     const [user,loading,error]=useAuthState(auth)

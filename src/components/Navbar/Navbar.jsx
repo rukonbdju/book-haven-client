@@ -6,7 +6,8 @@ import CartDropdown from "../CartDropdown/CartDropdown";
 import UserDropdown from "../UserDropdown/UserDropdown";
 import Notifications from "../Notifications/Notifications";
 import { useAuthState } from "react-firebase-hooks/auth";
-import auth from "../../firebaseAuth/firebase.init";
+import auth from "../../../firebase.init";
+
 const Navbar = () => {
     const [user, loading, error] = useAuthState(auth);
     console.log(user, loading, error);

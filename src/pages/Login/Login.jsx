@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg"
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from "react-firebase-hooks/auth";
 import { useEffect, useState } from "react";
-import auth from "../../firebaseAuth/firebase.init";
+import auth from "../../../firebase.init";
 
 
 const Login = () => {
