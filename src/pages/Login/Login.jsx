@@ -18,7 +18,7 @@ const Login = () => {
         }
     },[gUser?.user?.uid])
     return (
-        <div className="flex flex-col w-4/5 md:w-1/2 lg:w-1/3 mx-auto h-screen justify-center items-center gap-2">
+        <div className="flex flex-col w-4/5 md:w-1/2 lg:w-1/3 mx-auto justify-center items-center gap-2">
             <img src={logo} alt="" />
             <h1 className=" font-bold text-4xl text-center mb-2">Welcome back !</h1>
             <label className="input input-bordered flex items-center gap-2 w-full">

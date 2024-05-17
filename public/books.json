@@ -1,17 +1,37 @@
 [
     {
         "title":"",
-        "authors":["Authorid"],
-        "summury":"This is fake summury",
+        "authors":{
+            "name":"",
+            "birth":"",
+            "death":"",
+            "details":"",
+            "addreess":"",
+            "country":""
+        },
+        "summury":"",
         "category":"",
-        "price":"200",
-        "publisher":"",
-        "photoUrl":"",
+        "price":"",
+        "publisher":{
+            "name":"",
+            "logo":""
+        },
+        "photo":"",
         "stock":"40",
-        "tagName":["",""],
-        "tanslator":"",
-        "editions":["3","4"],
-        "ISBN":"3284197349",
-        "pages":"234"
+        "tag":["",""],
+        "tanslator":{
+            "name":"",
+            "birth":"",
+            "death":"",
+            "details":"",
+            "addreess":"",
+            "country":""
+        },
+        "editions":["",""],
+        "ISBN":"",
+        "pages":"234",
+        "country":"",
+        "language":"",
+        "offer":""
     }
 ]

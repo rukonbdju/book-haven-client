@@ -12,7 +12,7 @@ const Register = () => {
     console.log(loading)
     console.log(error)
     return (
-        <div className="flex flex-col w-4/5 md:w-1/2 lg:w-1/3 mx-auto my-2 h-screen justify-center items-center gap-2">
+        <div className="flex flex-col w-4/5 md:w-1/2 lg:w-1/3 mx-auto justify-center items-center gap-2">
             <img width={120} src={logo} alt="" />
             <h1 className=" font-bold text-4xl text-center mb-2">User register</h1>
             <label className="input input-bordered flex w-full items-center gap-2">

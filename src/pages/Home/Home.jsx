@@ -1,11 +1,8 @@
-import Footer from "../../components/Footer/Footer";
-import Navbar from "../../components/Navbar/Navbar";
 
 const Home=()=>{
     return(
         <section>
-            <Navbar></Navbar>
-            <Footer></Footer>
+            <h2 className="text-3xl">This is home page</h2>
         </section>
     )
 }
